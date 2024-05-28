@@ -1,0 +1,86 @@
+/*Selector tipo etiqueta*/
+body{
+    background-color:antiquewhite;
+    font-size: 19px;
+    color: black;
+    font-family: "Radio Canada Big", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+/*tipo etiqueta*/
+h1{
+    color: blue;
+}
+
+h2{
+    color: rgb(33, 31, 31);
+    margin-top: 0;
+    text-align: center;
+
+}
+h3{
+    color: darkblue;
+}
+
+/*Selector tipo ID*/
+
+
+
+/*Selector de tipo Clase*/
+.estilo-section{
+    background-color: rgb(255, 255, 255);
+    color: black; /* Texto legible sobre fondo beige */
+    text-align: center;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    
+    
+}
+
+#Certificaciones{
+    color: rgb(2, 19, 255);
+}
+
+.estilo-seccion ul li{
+    list-style: none;
+}
+
+nav ol li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav ol li a:hover {
+    text-decoration: underline;
+}
+
+/* Eliminar viñetas y centrar las listas */
+ol, ul {
+    list-style: none; /* Eliminar viñetas */
+    padding: 0; /* Eliminar relleno por defecto */
+    margin: 0; /* Eliminar margen por defecto */
+    
+}
+nav ol {
+    padding-left: 20px; /* Ajuste de relleno para el índice de navegación */
+}
+
+/*Selector  Avanzado
+.estilo-seccion ul li{
+    list-style: none;
+    
+}
+*/
+img{
+width: 800px;
+height: ;
+
+}
+
+footer{
+    text-align: center;
+}
