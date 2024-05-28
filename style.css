@@ -58,6 +58,74 @@ nav ol li a:hover {
     text-decoration: underline;
 }
 
+
+
+/*Selector  Avanzado
+.estilo-seccion ul li{
+    list-style: none;
+    
+}
+*/
+img{
+width: 900px;
+height: ;
+
+}
+
+footer{
+    text-align: center;
+}
+.fotter1{
+    display: flex;/*Indicamos que se haga Flexible con display: flex*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.divs{
+    margin: 10px;
+    align-self: center;
+
+}
+.Habilidades{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mijo{
+    margin: 10px;
+    align-self: center;
+}
+
+
+.desc{
+   
+    display: flex;/*Indicamos que se haga Flexible con display: flex*/
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.myself{
+    margin: 10px;
+    align-self: center; 
+    font-size: 20px;
+}
+
+/*
+.skills{
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mijo{
+    margin: 10px;
+    align-self: center;
+}
+*/
 /* Eliminar viñetas y centrar las listas */
 ol, ul {
     list-style: none; /* Eliminar viñetas */
@@ -67,20 +135,4 @@ ol, ul {
 }
 nav ol {
     padding-left: 20px; /* Ajuste de relleno para el índice de navegación */
-}
-
-/*Selector  Avanzado
-.estilo-seccion ul li{
-    list-style: none;
-    
-}
-*/
-img{
-width: 800px;
-height: ;
-
-}
-
-footer{
-    text-align: center;
 }
