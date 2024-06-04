@@ -7,11 +7,18 @@ body{
     margin: 0;
     padding: 0;
     text-align: left;
+    overflow: scroll;
 }
 /*tipo etiqueta*/
 h1{
-    color: blue;
+    color: rgb(60, 60, 60);
+    position: sticky;
+    top: 0px;
+    
+    
+    
 }
+
 
 h2{
     color: rgb(33, 31, 31);
@@ -20,12 +27,18 @@ h2{
 
 }
 h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    
     color: darkblue;
 }
 
 /*Selector tipo ID*/
 
-
+.Index{
+    margin-top: 0;
+  
+  }
 
 /*Selector de tipo Clase*/
 .estilo-section{
@@ -60,6 +73,7 @@ nav ol li a:hover {
 
 
 
+
 /*Selector  Avanzado
 .estilo-seccion ul li{
     list-style: none;
@@ -67,7 +81,7 @@ nav ol li a:hover {
 }
 */
 img{
-width: 900px;
+width: 700px;
 height: ;
 
 }
@@ -104,7 +118,8 @@ footer{
    
     display: flex;/*Indicamos que se haga Flexible con display: flex*/
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: reverse;
+    flex-shrink: 1;
     justify-content: space-around;
     align-items: center;
 }
@@ -127,7 +142,9 @@ footer{
 }
 */
 /* Eliminar viñetas y centrar las listas */
+
 ol, ul {
+
     list-style: none; /* Eliminar viñetas */
     padding: 0; /* Eliminar relleno por defecto */
     margin: 0; /* Eliminar margen por defecto */
