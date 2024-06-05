@@ -51,10 +51,12 @@ h3{
     border: 1px solid rgb(0, 0, 0);
     
     
+    
 }
 
 #Certificaciones{
     color: rgb(2, 19, 255);
+    
 }
 
 .estilo-seccion ul li{
@@ -81,7 +83,7 @@ nav ol li a:hover {
 }
 */
 img{
-width: 700px;
+width: 43rem;
 height: ;
 
 }
@@ -102,24 +104,34 @@ footer{
 
 }
 .Habilidades{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    
+   /* flex-direction: row;
+    flex-wrap: nowrap;*/
+
     justify-content: space-evenly;
     align-items: center;
 }
-.mijo{
-    margin: 10px;
-    align-self: center;
+#Habilidades{
+    display: grid;
+    justify-content: space-evenly;
 }
-
-
+#Idioma{
+    height: 24rem;
+    display: grid;
+    justify-content: space-evenly;
+}
+#Columnas{
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
 .desc{
    
     display: flex;/*Indicamos que se haga Flexible con display: flex*/
     flex-direction: row;
     flex-wrap: reverse;
-    flex-shrink: 1;
+    
     justify-content: space-around;
     align-items: center;
 }
